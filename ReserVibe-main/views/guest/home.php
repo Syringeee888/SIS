@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Verde Royale Resort | Calasiao</title>
+    <link rel="stylesheet" href="<?php echo \App\Helpers\Assets::url('/assets/css/style.css'); ?>">
+</head>
+<body>
+    <div class="site-shell"><?php require __DIR__ . '/../partials/site-header.php'; ?><main id="main-content"><section class="hero"><div class="hero-copy"><p class="eyebrow">Calasiao, Pangasinan</p><h1>A private escape made for your favorite people.</h1><p>Swim, celebrate, and slow down in a green, family-friendly setting at Verde Royale Resort.</p><div class="hero-actions"><a href="?action=rooms" class="btn">Explore packages</a><a href="#experience" class="text-link">Discover the resort &darr;</a></div></div><p class="photo-credit">Pool photo: See Pangasinan directory</p></section><section class="intro-section" id="experience"><p class="eyebrow">The Verde experience</p><h2>Simple moments, beautifully shared.</h2><div class="feature-grid"><article><h3>Private pool time</h3><p>Make the day your own with space to relax, play, and reconnect.</p></article><article><h3>For every celebration</h3><p>A welcoming backdrop for birthdays, family reunions, and special occasions.</p></article><article><h3>Stay a little longer</h3><p>Browse sample stay and day-use packages for this school-project booking demo.</p></article></div></section><section class="cta-band"><div><p class="eyebrow">Plan your visit</p><h2>Find a package for your gathering.</h2></div><a class="btn" href="?action=rooms">View packages</a></section><section class="faq-section" id="faq"><p class="eyebrow">Before you visit</p><h2>Frequently asked questions</h2><div class="faq-list"><details><summary>Where is Verde Royale Resort?</summary><p>It is listed in Barangay Ambonao, Calasiao, Pangasinan. Contact the resort directly for directions and current availability.</p></details><details><summary>Can I book for a private gathering?</summary><p>The resort is publicly described as having private pool rentals and event-oriented spaces. Confirm details with the resort.</p></details><details><summary>Are prices on this website final?</summary><p>No. This is a school prototype; displayed rates are sample values and need resort confirmation.</p></details></div></section></main><?php require __DIR__ . '/../partials/site-footer.php'; ?></div>
+</body>
+</html>
+
